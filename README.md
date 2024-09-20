@@ -7,7 +7,7 @@
   - Flex 정렬
   - CSS 외부 링크
   - 특수 효과
-- 깃으로 관리👍
+- 깃으로 관리👍 -깃허브 페이지를 사용해서 배포(Deploy)함
 
-구글링크
-[Google](https://google.com)
+이미지 갤러리
+[배포](https://hrok2024.github.io/git/)
