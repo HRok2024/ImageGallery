@@ -35,7 +35,7 @@ h1 {
 .gallery .images .img {
   display: flex;
   cursor: pointer;
-  /* overflow: hidden; */
+  overflow: hidden;
   position: relative;
   margin-bottom: 14px;
   border-radius: 4px;
@@ -60,13 +60,13 @@ h1 {
   height: 100%;
   z-index: 5;
   position: fixed;
-  /* visibility: hidden; */
+  visibility: hidden;
   background: rgba(0, 0, 0, 0.65);
 }
 
-/* .lightbox.show {
+.lightbox.show {
   visibility: visible;
-} */
+}
 
 .lightbox .wrapper {
   position: fixed;
@@ -77,18 +77,17 @@ h1 {
   max-width: 850px;
   background: #fff;
   border-radius: 6px;
-  /* 투명도 0으로 고쳐주기 */
-  opacity: 1;
+  opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) scale(0.9);
   transition: transform 0.1s ease;
 }
 
-/* .lightbox.show .wrapper {
+.lightbox.show .wrapper {
   opacity: 1;
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
-} */
+}
 
 .wrapper :where(header, .details) {
   display: flex;
